@@ -467,7 +467,7 @@ body.cart-shortcut-active .toast { bottom: 90px; }
   .product-meta .price { font-size: 21px; }
   .product-meta .weight { padding-inline: 5px; font-size: 14px; }
   .product-meta select.weight { min-height: 40px; padding-inline: 7px 34px; }
-  .product .ribbon { gap: 6px; padding-inline: 10px; }
+  .product .ribbon { gap: 6px; padding-inline: 10px; font-size: clamp(14px, 4.2vw, 17px); }
   .product .ribbon .icon { width: 16px; height: 16px; }
   .catalog-controls { grid-template-columns: minmax(0, 1fr) 46px; gap: 8px; margin-top: 20px; }
   .search-box { grid-column: 1 / -1; }
