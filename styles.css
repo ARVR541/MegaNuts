@@ -35,6 +35,7 @@
   --mist: #c1d6d0;
   --line: #d8e4de;
   --photo-background: #f7f3e9;
+  --header-logo-width: clamp(250px, 24vw, 300px);
   --heading: 'Roboto Slab', Georgia, serif;
   --body: 'Roboto Condensed', 'Arial Narrow', Arial, sans-serif;
   color: var(--green);
@@ -94,17 +95,17 @@ p { margin: 0; }
 .announcement-close { position: absolute; right: 13px; width: 29px; height: 29px; }
 .utility {
   min-height: 48px;
-  display: flex;
+  display: grid;
   align-items: stretch;
-  justify-content: space-between;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) var(--header-logo-width) minmax(0, 1fr);
+  gap: 12px;
   padding-left: 20px;
   background: var(--green);
   color: #fff;
   font: 15px/1.35 Arial, sans-serif;
 }
 .utility p { align-self: center; }
-.utility-links { display: flex; align-items: stretch; gap: 22px; }
+.utility-links { grid-column: 3; justify-self: end; display: flex; align-items: stretch; gap: 22px; }
 .utility-links a, .utility-links button { display: flex; align-items: center; gap: 10px; }
 .utility-links button { border: 0; padding: 0; background: transparent; }
 .utility-links a:hover, .utility-links button:hover { text-decoration: underline; }
@@ -114,17 +115,19 @@ p { margin: 0; }
 .nav-side > a, .mega-menu a, .footer-links > a, .footer-links > button { display: flex; align-items: center; gap: 8px; }
 .mega-menu .icon, .footer-links .icon { width: 18px; height: 18px; }
 .site-header { position: relative; z-index: 2; background: white; box-shadow: 0 1px 4px #0001; }
-.main-nav { min-height: 136px; display: grid; grid-template-columns: minmax(0, 1fr) 200px minmax(0, 1fr); align-items: center; gap: 20px; width: min(100% - 36px, 1550px); margin-inline: auto; }
+.site-header::after { content: ''; position: absolute; z-index: -1; top: calc(100% - 18px); left: 50%; width: calc(var(--header-logo-width) + 90px); height: 38px; transform: translateX(-50%); border-radius: 0 0 50% 50%; background: inherit; pointer-events: none; }
+.main-nav { min-height: 112px; display: grid; grid-template-columns: minmax(0, 1fr) var(--header-logo-width) minmax(0, 1fr); align-items: center; gap: 20px; width: min(100% - 36px, 1550px); margin-inline: auto; }
 .nav-side { display: flex; justify-content: center; align-items: center; gap: clamp(12px, 1.8vw, 28px); }
+.brand + .nav-side { grid-column: 3; }
 .nav-side > a, .catalog-menu summary { font: 600 clamp(16px, 1.28vw, 20px)/1.25 var(--body); white-space: nowrap; }
 .nav-side > a:hover, .catalog-menu summary:hover { color: #9b6600; }
-.brand { display: block; width: 100%; }
+.brand { position: absolute; z-index: 1; top: 50%; left: 50%; display: block; width: var(--header-logo-width); transform: translate(-50%, calc(-50% - 4px)); }
 .mobile-action { display: none; }
 .catalog-menu summary { display: flex; align-items: center; gap: 9px; cursor: pointer; list-style: none; }
 .catalog-menu summary::-webkit-details-marker { display: none; }
 .chevron { display: inline-block; flex: 0 0 12px; width: 12px; height: 12px; background: currentColor; -webkit-mask: url('assets/chevron-down.svg') center / contain no-repeat; mask: url('assets/chevron-down.svg') center / contain no-repeat; }
 .catalog-menu[open] .chevron { transform: rotate(180deg); }
-.mega-menu { position: absolute; inset: 100% 0 auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px 22px; padding: 24px max(40px, (100% - 1100px) / 2); background: var(--green); color: #fff; box-shadow: 0 6px 12px #0002; }
+.mega-menu { position: absolute; z-index: 2; inset: 100% 0 auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px 22px; padding: 24px max(40px, (100% - 1100px) / 2); background: var(--green); color: #fff; box-shadow: 0 6px 12px #0002; }
 .mega-menu a { padding: 6px 0; color: #ffffffd1; font-size: 16px; }
 .mega-menu a:hover { color: var(--gold); }
 
@@ -425,19 +428,30 @@ body.cart-shortcut-active .toast { bottom: 90px; }
 .checkout-confirmation p + p, .checkout-confirmation .checkout-actions { margin-top: 10px; }
 
 @media (max-width: 1050px) {
-  .main-nav { min-height: 118px; grid-template-columns: minmax(0, 1fr) 170px minmax(0, 1fr); gap: 12px; }
+  :root { --header-logo-width: clamp(210px, 22vw, 250px); }
+  .utility { font-size: 13px; }
+  .utility-links { gap: 10px; }
+  .utility-links a, .utility-links button { gap: 6px; }
+  .utility-links .icon { width: 18px; height: 18px; }
+  .utility-links button:last-child { padding-inline: 10px; }
+  .main-nav { min-height: 106px; gap: 12px; }
   .nav-side { gap: 8px; }
+  .brand + .nav-side { flex-wrap: wrap; }
   .nav-side > a, .catalog-menu summary { gap: 6px; }
   .nav-side .icon { width: 18px; height: 18px; }
   .products { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 798px) {
+  :root { --header-logo-width: clamp(132px, 42vw, 176px); }
   .announcement { min-height: 35px; font-size: 15px; }
   .utility, .nav-side { display: none; }
-  .main-nav { min-height: clamp(87px, 16vw, 106px); grid-template-columns: minmax(0, 1fr) clamp(128px, 30vw, 154px) minmax(0, 1fr); gap: 7px; width: calc(100% - 20px); }
+  .main-nav { min-height: clamp(87px, 16vw, 106px); gap: 7px; width: calc(100% - 20px); }
+  .site-header::after { top: calc(100% - 12px); width: calc(var(--header-logo-width) + 44px); height: 25px; }
+  .brand { transform: translate(-50%, calc(-50% + 4px)); }
   .mobile-action { display: flex; align-items: center; }
+  .mobile-menu-button { grid-column: 1; }
   .mobile-menu-button, .mobile-tools button { position: relative; width: 34px; min-height: 40px; padding: 5px; justify-content: center; align-items: center; display: flex; border: 0; background: transparent; }
-  .mobile-tools { justify-content: flex-end; gap: 6px; }
+  .mobile-tools { grid-column: 3; justify-content: flex-end; gap: 6px; }
   .mobile-count { position: absolute; top: 0; right: -1px; min-width: 16px; height: 16px; padding: 0 2px; border-radius: 50%; background: var(--gold); font-size: 11px; line-height: 16px; text-align: center; }
   .hero-caption { inset: auto 5% clamp(8px, 2.5vw, 18px); }
   .hero h1 { font-size: clamp(28px, 7vw, 53px); }

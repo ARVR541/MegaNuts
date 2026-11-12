@@ -221,7 +221,7 @@ function renderProduct(product) {
         ${packPicker(product, variant)}
         ${renderUnitPrice(variant)}
       </div>
-      <button class="ribbon" type="button" data-action="add" data-id="${product.id}" aria-label="В корзину: ${name}">${icon('bag')}Добавить</button>
+      <button class="ribbon" type="button" data-action="add" data-id="${product.id}" aria-label="В корзину: ${name}">Добавить</button>
     </div>
   </article>`;
 }
