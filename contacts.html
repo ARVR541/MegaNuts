@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#095c45">
+  <meta name="description" content="Свяжитесь с МегаНатс: вопросы о заказах, орехах, сухофруктах и подарочных наборах.">
+  <title>Контакты — МегаНатс</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="products.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">К содержанию</a>
+  <div class="announcement">
+    <a href="index.html#catalog">Орехи, сухофрукты и многое другое</a>
+    <button type="button" class="announcement-close close-button" aria-label="Закрыть объявление" data-action="dismiss-announcement"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#close"></use></svg></button>
+  </div>
+
+  <div class="utility">
+    <p>Любимые вкусы на каждый день</p>
+    <div class="utility-links">
+      <a href="contacts.html" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg><span>Контакты</span></a>
+      <button type="button" data-action="search"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#search"></use></svg>Поиск</button>
+      <button type="button" data-action="cart"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bag"></use></svg><span><span data-cart-count>0</span> Корзина</span></button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="main-nav" aria-label="Главное меню">
+      <div class="nav-side">
+        <details class="catalog-menu">
+          <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#catalog"></use></svg><span>Каталог</span> <span class="chevron" aria-hidden="true"></span></summary>
+          <div id="catalog-menu-items" class="mega-menu"></div>
+        </details>
+        <a href="index.html#bestsellers"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#flame"></use></svg><span>Хиты продаж</span></a>
+      </div>
+      <button class="mobile-action mobile-menu-button" type="button" data-action="menu" aria-label="Открыть меню"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#menu"></use></svg></button>
+      <a class="brand" href="index.html#top" aria-label="МегаНатс — главная"><img src="assets/logo.png" alt="МегаНатс — интернет-магазин орехов и сухофруктов" width="1536" height="1024"></a>
+      <div class="nav-side">
+        <a href="index.html#about"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#store"></use></svg><span>О магазине</span></a>
+        <a href="index.html#tips"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#pairing"></use></svg><span>С чем сочетать</span></a>
+        <a href="index.html#gifts"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#gift"></use></svg><span>Подарки</span></a>
+      </div>
+      <div class="mobile-action mobile-tools">
+        <button type="button" data-action="search" aria-label="Поиск"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#search"></use></svg></button>
+        <button type="button" data-action="cart" aria-label="Корзина"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bag"></use></svg><span class="mobile-count" data-cart-count>0</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="contacts-page">
+    <header class="contacts-heading page-width">
+      <p class="contacts-eyebrow">МегаНатс · На связи с вами</p>
+      <h1>Контакты</h1>
+      <p>Поможем с выбором, заказом и подарками для близких.</p>
+    </header>
+
+    <div class="contact-layout page-width">
+      <section class="contact-message" aria-labelledby="contact-message-title">
+        <h2 id="contact-message-title">Напишите нам</h2>
+        <p class="contact-intro">Есть вопрос или предложение? Будем рады вас услышать.</p>
+        <form id="contact-form" class="contact-form" aria-describedby="contact-form-note">
+          <div class="contact-fields">
+            <label><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#user"></use></svg>Ваше имя <span aria-hidden="true">*</span><input name="name" autocomplete="name" placeholder="Имя и фамилия" maxlength="100" required></label>
+            <label><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#mail"></use></svg>Электронная почта <span aria-hidden="true">*</span><input name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="150" required></label>
+            <label class="contact-field-wide"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>Телефон<input name="phone" type="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" maxlength="30"></label>
+          </div>
+          <label><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#message"></use></svg>Сообщение <span aria-hidden="true">*</span><textarea name="message" rows="6" maxlength="3000" placeholder="Чем мы можем помочь?" required></textarea></label>
+          <p class="contact-required">* Обязательные поля</p>
+          <button class="ribbon" type="submit" disabled><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#send"></use></svg>Отправить сообщение</button>
+          <p id="contact-form-note" class="contact-form-note">Форма связи скоро заработает. Сейчас сообщения не отправляются.</p>
+        </form>
+      </section>
+
+      <aside class="contact-card" aria-labelledby="contact-card-title">
+        <img class="contact-logo" src="assets/logo.png" alt="МегаНатс — интернет-магазин орехов и сухофруктов" width="1536" height="1024">
+        <h2 id="contact-card-title">Свяжитесь с нами</h2>
+        <p>Всё о ваших любимых вкусах — с заботой и вниманием.</p>
+        <dl class="contact-details">
+          <div><dt><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>Телефон магазина</dt><dd class="contact-placeholder">Номер скоро появится</dd></div>
+          <div><dt><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#mail"></use></svg>Электронная почта</dt><dd class="contact-placeholder">Адрес почты скоро появится</dd></div>
+          <div><dt><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>Время работы</dt><dd class="contact-placeholder">График работы уточняется</dd></div>
+        </dl>
+      </aside>
+    </div>
+
+    <section class="contact-visit page-width" aria-labelledby="contact-visit-title">
+      <div class="contact-visit-photo"><img src="assets/catalog/6151.webp" alt="Ассорти орехов и сухофруктов МегаНатс" width="720" height="540" loading="lazy"></div>
+      <div class="contact-visit-copy">
+        <p class="contacts-eyebrow">Загляните к нам</p>
+        <h2 id="contact-visit-title">Магазин МегаНатс</h2>
+        <p>Орехи, сухофрукты, сладости и подарки — выбирайте любимое.</p>
+        <dl class="contact-details">
+          <div><dt><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#pin"></use></svg>Адрес магазина</dt><dd class="contact-placeholder">Адрес скоро появится здесь</dd></div>
+        </dl>
+        <p class="contact-map-note">Схему проезда добавим вместе с адресом.</p>
+        <a class="text-link" href="index.html#catalog"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow-right"></use></svg>А пока — загляните в каталог</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="page-width footer-grid">
+      <a class="footer-brand" href="index.html#top"><img src="assets/logo.png" width="1536" height="1024" alt="МегаНатс" loading="lazy"></a>
+      <div><h2>Каталог</h2><div id="footer-categories" class="footer-links"></div></div>
+      <div><h2>МегаНатс</h2><div class="footer-links">
+        <a href="index.html#about"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#store"></use></svg><span>О магазине</span></a><a href="contacts.html" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg><span>Контакты</span></a><a href="index.html#bestsellers"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#flame"></use></svg><span>Хиты продаж</span></a><a href="index.html#gifts"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#gift"></use></svg><span>Подарки</span></a>
+        <button type="button" data-action="cart"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bag"></use></svg>Корзина</button>
+      </div></div>
+    </div>
+    <p class="copyright">© МегаНатс</p>
+  </footer>
+
+  <dialog id="cart-dialog" class="drawer" aria-labelledby="cart-title">
+    <div class="dialog-heading"><h2 id="cart-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bag"></use></svg>Корзина</h2><button class="close-button" data-action="close" type="button" aria-label="Закрыть корзину"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#close"></use></svg></button></div>
+    <div id="cart-items" class="cart-items"></div>
+    <div id="cart-summary" class="cart-summary" hidden>
+      <p class="total"><strong>Итого</strong><strong id="cart-total"></strong></p>
+      <button class="ribbon" data-action="checkout" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#receipt"></use></svg>Оформить заказ</button>
+      <button class="text-link" data-action="download" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#download"></use></svg>Скачать список</button>
+      <p>Цены предварительные. Оформление работает в тестовом режиме.</p>
+    </div>
+  </dialog>
+  <dialog id="product-dialog" class="product-dialog" aria-labelledby="product-title">
+    <button class="close-button product-close" data-action="close" type="button" aria-label="Закрыть карточку товара"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#close"></use></svg></button>
+    <div id="product-detail" class="product-detail"></div>
+  </dialog>
+  <dialog id="menu-dialog" class="drawer mobile-drawer" aria-labelledby="mobile-menu-title">
+    <div class="dialog-heading"><h2 id="mobile-menu-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#menu"></use></svg>Меню</h2><button class="close-button" data-action="close" type="button" aria-label="Закрыть меню"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#close"></use></svg></button></div>
+    <nav class="mobile-nav" aria-label="Разделы магазина">
+      <details class="mobile-catalog-menu">
+        <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#catalog"></use></svg><span>Каталог</span> <span class="chevron" aria-hidden="true"></span></summary>
+        <div id="mobile-categories" class="mobile-category-links"></div>
+      </details>
+      <a href="index.html#bestsellers"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#flame"></use></svg><span>Хиты продаж</span></a><a href="index.html#about"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#store"></use></svg><span>О магазине</span></a><a href="index.html#tips"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#pairing"></use></svg><span>С чем сочетать</span></a><a href="contacts.html" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg><span>Контакты</span></a>
+    </nav>
+  </dialog>
+  <button class="floating-cart" data-action="cart" type="button" hidden>
+    <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bag"></use></svg>
+    <span>Корзина <span class="floating-cart-count" data-cart-count>0</span></span>
+    <strong id="floating-total"></strong>
+  </button>
+  <dialog id="checkout-dialog" class="checkout-dialog" aria-labelledby="checkout-title">
+    <div class="dialog-heading">
+      <h2 id="checkout-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#receipt"></use></svg>Оформление заказа</h2>
+      <button class="close-button" data-action="close" type="button" aria-label="Закрыть оформление заказа"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#close"></use></svg></button>
+    </div>
+    <form id="checkout-form" class="checkout-body" method="dialog">
+      <p class="demo-note">Тестовый заказ. Используйте пример контактов. Оплата и отправка заказа не подключены.</p>
+      <fieldset>
+        <legend><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#user"></use></svg>Контакты</legend>
+        <div class="checkout-fields">
+          <label><span class="field-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#user"></use></svg>Имя</span><input name="name" autocomplete="off" maxlength="80" required></label>
+          <label><span class="field-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>Телефон</span><input name="phone" type="tel" autocomplete="off" maxlength="30" placeholder="+7 900 000-00-00" required></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#truck"></use></svg>Получение</legend>
+        <div class="delivery-options">
+          <label><input name="method" type="radio" value="pickup" checked> <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#store"></use></svg>Самовывоз</label>
+          <label><input name="method" type="radio" value="courier"> <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#truck"></use></svg>Доставка</label>
+        </div>
+        <p class="fulfillment-note" id="fulfillment-note"></p>
+        <div class="checkout-fields" id="address-fields" hidden>
+          <label><span class="field-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#pin"></use></svg>Город</span><input name="city" autocomplete="off" maxlength="80" required disabled></label>
+          <label><span class="field-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#pin"></use></svg>Улица, дом, квартира</span><input name="address" autocomplete="off" maxlength="180" required disabled></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bag"></use></svg>Ваш заказ</legend>
+        <ul class="checkout-lines" id="checkout-lines"></ul>
+        <dl class="checkout-totals">
+          <div><dt>Товары</dt><dd id="checkout-subtotal"></dd></div>
+          <div><dt>Получение</dt><dd id="checkout-fee"></dd></div>
+          <div class="checkout-grand-total"><dt>Итого</dt><dd id="checkout-total" aria-live="polite"></dd></div>
+        </dl>
+      </fieldset>
+      <div class="checkout-actions">
+        <button class="ribbon" type="submit"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#check"></use></svg>Подтвердить тестовый заказ</button>
+        <button class="text-link" type="button" data-action="back-to-cart"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow-left"></use></svg>Назад в корзину</button>
+      </div>
+    </form>
+    <div id="checkout-confirmation" class="checkout-body checkout-confirmation" hidden>
+      <h3 id="checkout-result-title" tabindex="-1">Тестовый заказ сформирован</h3>
+      <p id="checkout-result"></p>
+      <p>Заказ можно скачать для проверки. Он не отправлен в магазин.</p>
+      <div class="checkout-actions">
+        <button class="ribbon" data-action="download-order" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#download"></use></svg>Скачать заказ</button>
+        <button class="text-link" data-action="close" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow-left"></use></svg>Вернуться к покупкам</button>
+      </div>
+    </div>
+  </dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
