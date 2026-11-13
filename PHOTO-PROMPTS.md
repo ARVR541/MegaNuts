@@ -218,3 +218,68 @@ Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photo
 
 Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph. A single round, shallow, matte ivory ceramic plate with a slender muted olive-green rim on a seamless warm pale beige #f7f3e9 tabletop. Food centered in the vessel, fills about 68% of the vessel diameter. The vessel is seen at a 45 degree angle, fully inside the image including the rim, with generous empty background all around and gentle shadows. Vessel occupies about 76% of image width. Upper-left diffused studio daylight, consistent calm warm palette, realistic natural texture and color. No additional objects, cutlery, hands, packaging, typography, watermarks, logos, borders or graphics. Product: small round thick snack wafers made mainly of visible whole dark-green pumpkin kernels and a few tan almonds pressed together. Three or four approximately coin-sized rustic dark green and toasted brown seed clusters, mostly intact seeds, rough rounded edges, a couple of loose kernels nearby. These are not orange bread disks and contain no fresh pumpkin.
 
+
+
+## Новые позиции МегаНатс · 13 ноября 2026
+
+Сгенерированы встроенным imagegen. Названия, фасовки и цены этой подборки временные, согласованы для макета.
+
+### mn-bouquet-nuts
+
+Файлы `assets/catalog/mn-bouquet-nuts.webp` и `assets/catalog/small/mn-bouquet-nuts.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph for the MegaNats catalog. Seamless warm pale beige #f7f3e9 tabletop, upper-left diffused studio daylight, calm warm colors, realistic natural food texture, gentle shadows. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, fully visible at a 45 degree view, with generous empty background all around. Plate occupies 76% of image width, food centered and fills about 68% of plate diameter. No typography, labels, branding, watermark, collage, border, extra props, cutlery, hands or packaging, except the specified gift wrapping for bouquets. Product: A single generous edible gift bouquet made of whole walnuts, almonds, hazelnuts, dried apricots and dates mounted on small wooden skewers, arranged like a round floral bouquet, wrapped in natural kraft paper with a deep forest-green ribbon. No flowers. Entire bouquet visible, photographed resting diagonally on the warm beige tabletop. No plate for this bouquet.
+
+### mn-bouquet-chocolate
+
+Файлы `assets/catalog/mn-bouquet-chocolate.webp` и `assets/catalog/small/mn-bouquet-chocolate.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph for the MegaNats catalog. Seamless warm pale beige #f7f3e9 tabletop, upper-left diffused studio daylight, calm warm colors, realistic natural food texture, gentle shadows. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, fully visible at a 45 degree view, with generous empty background all around. Plate occupies 76% of image width, food centered and fills about 68% of plate diameter. No typography, labels, branding, watermark, collage, border, extra props, cutlery, hands or packaging, except the specified gift wrapping for bouquets. Product: A single elegant sweet gift bouquet made of round dark and milk chocolate truffles and a few gold-foil wrapped chocolates on slender sticks, arranged like a round floral bouquet, wrapped in cream and pale cocoa paper with a deep forest-green ribbon. No flowers. Entire bouquet visible, photographed resting diagonally on the warm beige tabletop. No plate for this bouquet.
+
+### mn-tea-earl-grey
+
+Файлы `assets/catalog/mn-tea-earl-grey.webp` и `assets/catalog/small/mn-tea-earl-grey.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph for the MegaNats catalog. Seamless warm pale beige #f7f3e9 tabletop, upper-left diffused studio daylight, calm warm colors, realistic natural food texture, gentle shadows. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, fully visible at a 45 degree view, with generous empty background all around. Plate occupies 76% of image width, food centered and fills about 68% of plate diameter. No typography, labels, branding, watermark, collage, border, extra props, cutlery, hands or packaging, except the specified gift wrapping for bouquets. Product: A small abundant mound of loose black Earl Grey tea leaves, dark brown curled leaves with a few small dried bergamot peel fragments. No brewed liquid, no cup.
+
+### mn-tea-jasmine
+
+Файлы `assets/catalog/mn-tea-jasmine.webp` и `assets/catalog/small/mn-tea-jasmine.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph matching a warm beige food catalog. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, on a seamless warm pale beige #f7f3e9 tabletop. Plate fully inside frame seen at 45 degrees, occupies about 76% of image width, food centered fills 68% of plate diameter, generous empty background. Upper-left diffused studio daylight, realistic texture, gentle shadows. No additional objects, cutlery, hands, packaging, typography, watermark, logos, border or graphics. Product: a small abundant mound of loose jasmine green tea, rolled olive-green tea leaves mixed with delicate small ivory dried jasmine blossoms. No brewed liquid, no cup.
+
+### mn-tea-berries
+
+Файлы `assets/catalog/mn-tea-berries.webp` и `assets/catalog/small/mn-tea-berries.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph matching a warm beige food catalog. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, on a seamless warm pale beige #f7f3e9 tabletop. Plate fully inside frame seen at 45 degrees, occupies about 76% of image width, food centered fills 68% of plate diameter, generous empty background. Upper-left diffused studio daylight, realistic texture, gentle shadows. No additional objects, cutlery, hands, packaging, typography, watermark, logos, border or graphics. Product: a small abundant mound of loose berry and hibiscus fruit tea blend, deep ruby hibiscus petals, dried raspberry pieces, blackcurrants, rosehip halves and small apple pieces. No brewed liquid, no cup.
+
+### mn-coffee-arabica
+
+Файлы `assets/catalog/mn-coffee-arabica.webp` и `assets/catalog/small/mn-coffee-arabica.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph matching a warm beige food catalog. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, on a seamless warm pale beige #f7f3e9 tabletop. Plate fully inside frame seen at 45 degrees, occupies about 76% of image width, food centered fills 68% of plate diameter, generous empty background. Upper-left diffused studio daylight, realistic texture, gentle shadows. No additional objects, cutlery, hands, packaging, typography, watermark, logos, border or graphics. Product: a small abundant mound of medium-roasted Arabica coffee beans, rich chestnut brown, visible center creases, gentle natural sheen. Whole beans only.
+
+### mn-coffee-ground
+
+Файлы `assets/catalog/mn-coffee-ground.webp` и `assets/catalog/small/mn-coffee-ground.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph matching a warm beige food catalog. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, on a seamless warm pale beige #f7f3e9 tabletop. Plate fully inside frame seen at 45 degrees, occupies 76% of image width, food centered fills 68% of plate diameter, generous empty background. Upper-left diffused studio daylight, realistic texture, gentle shadows. No additional objects, cutlery, hands, packaging, typography, watermark, logos, border or graphics. Product: a small abundant mound of finely ground roasted coffee, uniform warm dark brown fine granules with a realistic gently sloping surface. Ground coffee only, no whole beans.
+
+### mn-candy-truffle
+
+Файлы `assets/catalog/mn-candy-truffle.webp` и `assets/catalog/small/mn-candy-truffle.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph matching a warm beige food catalog. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, on a seamless warm pale beige #f7f3e9 tabletop. Plate fully inside frame seen at 45 degrees, occupies 76% of image width, food centered fills 68% of plate diameter, generous empty background. Upper-left diffused studio daylight, realistic texture, gentle shadows. No additional objects, cutlery, hands, packaging, typography, watermark, logos, border or graphics. Product: seven round handmade dark chocolate truffles lightly dusted with cocoa powder, one cut in half to show smooth chocolate ganache. No wrappers.
+
+### mn-candy-hazelnut
+
+Файлы `assets/catalog/mn-candy-hazelnut.webp` и `assets/catalog/small/mn-candy-hazelnut.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph matching a warm beige food catalog. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, on a seamless warm pale beige #f7f3e9 tabletop. Plate fully inside frame seen at 45 degrees, occupies 76% of image width, food centered fills 68% of plate diameter, generous empty background. Upper-left diffused studio daylight, realistic texture, gentle shadows. No additional objects, cutlery, hands, packaging, typography, watermark, logos, border or graphics. Product: a small abundant mound of round whole hazelnuts coated in glossy milk chocolate, one cut in half to reveal a whole pale hazelnut center and a thick milk chocolate shell. No wrappers.
+
+### mn-candy-prune
+
+Файлы `assets/catalog/mn-candy-prune.webp` и `assets/catalog/small/mn-candy-prune.webp`.
+
+Use case: product-mockup. One landscape 4:3 photorealistic e-commerce food photograph matching a warm beige food catalog. A single round shallow matte ivory ceramic plate with a slender muted olive-green rim, on a seamless warm pale beige #f7f3e9 tabletop. Plate fully inside frame seen at 45 degrees, occupies 76% of image width, food centered fills 68% of plate diameter, generous empty background. Upper-left diffused studio daylight, realistic texture, gentle shadows. No additional objects, cutlery, hands, packaging, typography, watermark, logos, border or graphics. Product: six plump dried prunes coated in dark chocolate, oblong irregular glossy bonbons, one cut in half to reveal a dark moist prune center. No wrappers.

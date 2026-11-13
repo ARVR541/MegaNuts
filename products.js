@@ -1120,5 +1120,159 @@ const products = [
     ],
     "cardTitle": "Галеты из тыквы",
     "cardNote": "«Полезный перекус»"
+  },
+  {
+    "id": "mn-bouquet-nuts",
+    "name": "Сладкий букет «Ореховый»",
+    "price": 1690,
+    "weight": "1 шт.",
+    "category": "gifts",
+    "facts": {
+      "Наполнение": "Орехи и сухофрукты",
+      "Оформление": "Крафтовая упаковка с лентой"
+    },
+    "cardTitle": "Сладкий букет",
+    "cardNote": "«Ореховый»",
+    "image": "assets/catalog/mn-bouquet-nuts.webp"
+  },
+  {
+    "id": "mn-bouquet-chocolate",
+    "name": "Сладкий букет «Шоколадный»",
+    "price": 1890,
+    "weight": "1 шт.",
+    "category": "gifts",
+    "facts": {
+      "Наполнение": "Шоколадные конфеты и трюфели",
+      "Оформление": "Подарочная упаковка с лентой"
+    },
+    "cardTitle": "Сладкий букет",
+    "cardNote": "«Шоколадный»",
+    "image": "assets/catalog/mn-bouquet-chocolate.webp"
+  },
+  {
+    "id": "mn-tea-earl-grey",
+    "name": "Чёрный чай «Эрл Грей» с бергамотом",
+    "price": 390,
+    "weight": "100 г",
+    "category": "tea",
+    "facts": {
+      "Вид": "Чёрный листовой чай",
+      "Аромат": "Бергамот"
+    },
+    "cardTitle": "Чай «Эрл Грей»",
+    "cardNote": "чёрный · с бергамотом",
+    "image": "assets/catalog/mn-tea-earl-grey.webp"
+  },
+  {
+    "id": "mn-tea-jasmine",
+    "name": "Зелёный чай с жасмином",
+    "price": 420,
+    "weight": "100 г",
+    "category": "tea",
+    "facts": {
+      "Вид": "Зелёный листовой чай",
+      "Аромат": "Жасмин"
+    },
+    "cardTitle": "Зелёный чай",
+    "cardNote": "с жасмином",
+    "image": "assets/catalog/mn-tea-jasmine.webp"
+  },
+  {
+    "id": "mn-tea-berries",
+    "name": "Фруктовый чай «Ягодный сад»",
+    "price": 460,
+    "weight": "100 г",
+    "category": "tea",
+    "facts": {
+      "Вид": "Фруктово-ягодная смесь",
+      "Вкус": "Ягоды и каркаде"
+    },
+    "cardTitle": "Чай «Ягодный сад»",
+    "cardNote": "фруктово-ягодная смесь",
+    "image": "assets/catalog/mn-tea-berries.webp"
+  },
+  {
+    "id": "mn-coffee-arabica",
+    "name": "Кофе в зёрнах «Арабика»",
+    "price": 790,
+    "weight": "250 г",
+    "category": "coffee",
+    "variants": [
+      {
+        "id": "mn-coffee-arabica-500",
+        "weight": "500 г",
+        "price": 1490
+      }
+    ],
+    "facts": {
+      "Формат": "В зёрнах",
+      "Обжарка": "Средняя"
+    },
+    "cardTitle": "Кофе «Арабика»",
+    "cardNote": "в зёрнах · средняя обжарка",
+    "image": "assets/catalog/mn-coffee-arabica.webp"
+  },
+  {
+    "id": "mn-coffee-ground",
+    "name": "Кофе молотый «Классический»",
+    "price": 690,
+    "weight": "250 г",
+    "category": "coffee",
+    "variants": [
+      {
+        "id": "mn-coffee-ground-500",
+        "weight": "500 г",
+        "price": 1290
+      }
+    ],
+    "facts": {
+      "Формат": "Молотый",
+      "Обжарка": "Средняя"
+    },
+    "cardTitle": "Кофе «Классический»",
+    "cardNote": "молотый · средняя обжарка",
+    "image": "assets/catalog/mn-coffee-ground.webp"
+  },
+  {
+    "id": "mn-candy-truffle",
+    "name": "Конфеты «Шоколадный трюфель»",
+    "price": 650,
+    "weight": "200 г",
+    "category": "chocolate",
+    "facts": {
+      "Вид": "Шоколадные трюфели",
+      "Покрытие": "Какао"
+    },
+    "cardTitle": "Шоколадный трюфель",
+    "cardNote": "конфеты в какао",
+    "image": "assets/catalog/mn-candy-truffle.webp"
+  },
+  {
+    "id": "mn-candy-hazelnut",
+    "name": "Конфеты «Фундук в молочном шоколаде»",
+    "price": 590,
+    "weight": "200 г",
+    "category": "chocolate",
+    "facts": {
+      "Начинка": "Цельный фундук",
+      "Шоколад": "Молочный"
+    },
+    "cardTitle": "Фундук в шоколаде",
+    "cardNote": "молочный шоколад",
+    "image": "assets/catalog/mn-candy-hazelnut.webp"
+  },
+  {
+    "id": "mn-candy-prune",
+    "name": "Конфеты «Чернослив в тёмном шоколаде»",
+    "price": 540,
+    "weight": "250 г",
+    "category": "chocolate",
+    "facts": {
+      "Начинка": "Чернослив",
+      "Шоколад": "Тёмный"
+    },
+    "cardTitle": "Чернослив в шоколаде",
+    "cardNote": "тёмный шоколад",
+    "image": "assets/catalog/mn-candy-prune.webp"
   }
 ];

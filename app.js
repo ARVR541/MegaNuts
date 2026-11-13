@@ -6,11 +6,12 @@ const categories = [
   { id: 'mixes', name: 'Ореховые смеси', image: 'assets/catalog/small/7649.webp' },
   { id: 'snacks', name: 'Перекусы', image: 'assets/catalog/small/7964.webp' },
   { id: 'tea', name: 'Чай', image: 'assets/catalog/small/6222.webp' },
+  { id: 'coffee', name: 'Кофе', image: 'assets/catalog/small/mn-coffee-arabica.webp' },
   { id: 'chocolate', name: 'В шоколаде', image: 'assets/catalog/small/4007.webp' },
   { id: 'butters', name: 'Пасты и урбечи', image: 'assets/catalog/small/5992.webp' },
   { id: 'spices', name: 'Специи', image: 'assets/catalog/small/188.webp' },
   { id: 'honey', name: 'Мёд', image: 'assets/catalog/small/6606.webp' },
-  { id: 'gifts', name: 'Подарочные наборы', image: 'assets/catalog/small/6151.webp' },
+  { id: 'gifts', name: 'Подарочные наборы', image: 'assets/catalog/small/mn-bouquet-nuts.webp' },
 ];
 const featuredIds = ['105', '7597', '5122', '6491', '5178'];
 const featuredNames = {
@@ -443,7 +444,7 @@ function updateCheckout() {
   byId('address-fields').hidden = !courier;
   checkoutForm.elements.city.disabled = !courier;
   checkoutForm.elements.address.disabled = !courier;
-  byId('fulfillment-note').textContent = courier ? `Тестовый тариф доставки: ${money(fee)}.` : 'Самовывоз без доплаты. Адрес точки будет указан перед запуском.';
+  byId('fulfillment-note').textContent = courier ? `Тестовый тариф доставки: ${money(fee)}.` : 'Самовывоз без доплаты. Санкт-Петербург, проспект Непокорённых, д. 63, корп. 23, стр. 1.';
   byId('checkout-subtotal').textContent = money(subtotal);
   byId('checkout-fee').textContent = fee ? money(fee) : 'Без доплаты';
   byId('checkout-total').textContent = money(subtotal + fee);
